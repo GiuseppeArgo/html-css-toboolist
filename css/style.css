@@ -10,6 +10,10 @@ body {
 
 /* common */
 
+.lt {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
 
 /* /common */
 
@@ -17,6 +21,7 @@ body {
 
 header {
     background-color: #edf2f7;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .1);
 }
 
 .logo {
@@ -43,10 +48,12 @@ header {
 }
 
 .text-bar {
+    width: 300px;
     line-height: 35px;
-    padding-right: 100px;
+    padding-left: 10px;
     border-radius: 5px;
     border: 1px solid lightgrey;
+    box-shadow: 0px 2px 2px rgba(80, 78, 78, 0.088);
 }
 
 .add-task {
@@ -68,6 +75,7 @@ header {
     margin: auto;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
 }
 
 .list-container {
@@ -83,7 +91,7 @@ header {
 }
 
 .bigger-text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #434851;
     margin-top: 25px;
@@ -122,10 +130,45 @@ header {
     font-weight: 100;
     padding: 10px;
     background-color: white;
-    margin: 10px;
+    margin: 10px 0;
     border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(80, 78, 78, 0.088);
 }
 
+.label {
+    padding: 5px 10px;
+    border-radius: 30px;
+    height: 5px;
+    width: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: white;
+}
+
+.azure {
+    background-color: #09a9ed;
+}
+
+.violet {
+   background-color: #ab5de6;
+}
+
+.aquamarine {
+    background-color: #2cc6ab;
+}
+
+.orange {
+    background-color: #ff9d08;
+}
+
+.purple {
+    background-color: #ec4a9d;
+}
+
+.green {
+    background-color: #a3d116;
+}
 /* /list-menu */
+
 
 /* /main */
