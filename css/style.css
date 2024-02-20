@@ -1,24 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(237 242 247);
 }
 
 /* common */
 
 
-
-
 /* /common */
 
 /* header */
-.logo{
+
+header {
+    background-color: #edf2f7;
+}
+
+.logo {
     display: block;
-    margin: auto;
-    padding-top: 30px;
+    margin: 0 auto;
+}
+
+/* /header */
+
+/* main */
+
+.text-menu {
+    text-align: center;
+    line-height: 90px;
+    background-color: #edf2f7;
+    width: 700px;
+    margin: 50px auto;
+    height: 90px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.text-bar {
+    line-height: 35px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.add-task {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #14aaf5;
+    color: white;
 }
