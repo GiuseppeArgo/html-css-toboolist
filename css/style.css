@@ -28,12 +28,14 @@ header {
 
 /* main */
 
+/* upper menu */
+
 .text-menu {
     text-align: center;
     line-height: 90px;
     background-color: #edf2f7;
     width: 700px;
-    margin: 50px auto;
+    margin: 50px auto 2px;
     height: 90px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -53,4 +55,24 @@ header {
     border: none;
     background-color: #14aaf5;
     color: white;
+}
+
+/* /upper menu */
+
+/* list menu */
+
+.list-menu {
+    width: 700px;
+    height: 700px;
+    background-color: #edf2f7;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.list-container {
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    padding-top: 50px;
 }
